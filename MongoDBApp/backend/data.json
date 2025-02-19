@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Canon EOS-1D X",
+    "category": "Canon",
+    "price": 5000.0,
+    "image": "/images/img1.jpg",
+    "stock": 5,
+    "description": "Canon EOS-1D X este un aparat foto digital profesionist din gama DSLR, destinat fotografilor de sport, evenimente, wildlife și altor domenii care necesită performanță înaltă. Acesta este un model robust, construit pentru a rezista în condiții extreme, având un corp din magneziu rezistent la apă și praf.",
+    "isFeatured": ""
+  },
+  {
+    "name": "CANON EOS 200D",
+    "category": "Canon",
+    "price": 500.0,
+    "image": "/images/img2.jpg",
+    "stock": 10,
+    "description": "Canon EOS 200D (cunoscut și sub denumirea de Canon Rebel SL2 în unele piețe) este un aparat foto DSLR compact și accesibil, destinat fotografilor amatori și celor care doresc un aparat foto ușor de utilizat, dar cu performanțe bune.",
+    "isFeatured": "true"
+  },
+  {
+    "name": "Nikon D750 ",
+    "category": "Nikon",
+    "price": 1500.0,
+    "image": "/images/img6.png",
+    "stock": 4,
+    "description": "Nikon D750 este un DSLR full-frame (cu senzor full-frame FX) din gama mid-range a Nikon, lansat în 2014, care oferă un echilibru excelent între performanță, calitate a imaginii și preț, fiind ideal atât pentru amatori avansați, cât și pentru profesioniști.",
+    "isFeatured": ""
+  },
+  {
+    "name": "CANON EOS 4000D",
+    "category": "Canon",
+    "price": 350.0,
+    "image": "/images/img3.jpg",
+    "stock": 6,
+    "description": "Canon EOS 4000D este un DSLR entry-level lansat de Canon în 2018, destinat fotografilor amatori care doresc să învețe fotografia cu un aparat foto DSLR accesibil. Acesta oferă caracteristici de bază, dar cu performanță decentă pentru utilizatorii care doresc să progreseze de la un aparat foto compact sau de pe smartphone la un DSLR mai avansat.",
+    "isFeatured": "true"
+  },
+  {
+    "name": "Nikon Z7",
+    "category": "Nikon",
+    "price": 3000.0,
+    "image": "/images/img7.jpg",
+    "stock": 3,
+    "description": "Nikon Z7 este un aparat foto mirrorless de mare performanță din seria Z a Nikon, lansat în 2018. Este echipat cu un senzor full-frame (FX) și oferă o combinație excelentă de rezoluție ridicată, viteză și calitate a imaginii, fiind destinat fotografilor avansați și profesioniștilor care caută o cameră mirrorless de top.",
+    "isFeatured": ""
+  },
+  {
+    "name": "Canon EOS 5D Mark III",
+    "category": "Canon",
+    "price": 1800.0,
+    "image": "/images/img5.jpg",
+    "stock": 7,
+    "description": "Canon EOS 5D Mark III este un DSLR profesional lansat de Canon în 2012, fiind o opțiune populară printre fotograficii profesioniști și avansați datorită performanței sale excelente în diverse condiții de fotografiere. Parte din seria 5D, este un model de mare succes, care a continuat tradiția de calitate și fiabilitate a acestei serii.",
+    "isFeatured": "true"
+  },
+  {
+    "name": "Nikon D3500",
+    "category": "Nikon",
+    "price": 500.0,
+    "image": "/images/img8.png",
+    "stock": 5,
+    "description": "Nikon D3500 este un DSLR entry-level destinat fotografilor începători sau amatori care doresc să treacă de la fotografiile realizate cu un smartphone la o cameră DSLR mai avansată, dar accesibilă. Lansat în 2018, Nikon D3500 este o versiune mai compactă și mai ușor de utilizat a modelului D3400, oferind o calitate excelentă a imaginii și funcționalități simple pentru utilizatorii care încep să învețe fotografia.",
+    "isFeatured": ""
+  },
+  {
+    "name": "Sony A6000",
+    "category": "Sony",
+    "price": 499.99,
+    "image": "/images/img9.jpg",
+    "stock": 5,
+    "description": "Sony A6000 este un aparat foto mirrorless compact și performant, lansat în 2014. Deși este un model mai vechi, Sony A6000 rămâne popular datorită combinației excelente între performanță și preț. Este un aparat foto mirrorless accesibil, ideal pentru fotografii amatori și avansați care doresc un aparat mic, dar puternic, pentru a captura imagini de înaltă calitate.",
+    "isFeatured": ""
+  },
+  {
+    "name": "Canon EOS M50 MARK II",
+    "category": "Canon",
+    "price": 699.97,
+    "image": "/images/img10.jpg",
+    "stock": 10,
+    "description": "Canon EOS M50 Mark II este un aparat foto mirrorless compact, ideal pentru fotografi și videografi care doresc un aparat versatil, ușor de utilizat și capabil să capteze imagini și video de înaltă calitate. Lansat în 2020, M50 Mark II este o actualizare a modelului original M50, aducând îmbunătățiri semnificative la capitolele filmare video, autofocus și performanță generală.",
+    "isFeatured": "true"
+  }
+]

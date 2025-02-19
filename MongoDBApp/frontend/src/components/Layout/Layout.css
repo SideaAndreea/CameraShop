@@ -1,0 +1,130 @@
+/* Header general */
+.horizontal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Wrapper pentru meniu orizontal */
+.menu-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.ant-menu-horizontal {
+  border-bottom: none;
+  flex: 1;
+  justify-content: center;
+}
+
+.ant-menu-item {
+  font-size: 17px;
+}
+
+.ant-menu-item > a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Coșul de cumpărături */
+.cart-items {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  margin-right: 30px; /* Adăugăm margine dreaptă pentru coș */
+}
+
+/* Badge-ul */
+.cart-badge {
+  position: absolute;
+  top: -6px; /* Ridicăm puțin badge-ul pentru a-l face mai vizibil */
+  right: -20px; /* Asigurăm că badge-ul nu se suprapune cu marginea coșului */
+  background-color: #93d8ec;
+  color: black;
+  font-size: 10px; /* Dimensiune mai mică pentru badge */
+  padding: 2px 6px;
+  border-radius: 50%;
+  min-width: 16px; /* Asigurăm o lățime minimă pentru badge */
+  text-align: center; /* Centram numărul din badge */
+}
+
+/* Stiluri pentru meniul selectat */
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #93d8ec;
+}
+
+/* Logo */
+.logo {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.logo-title {
+  letter-spacing: 1.3px;
+  color: #1890ff;
+  font-size: 20px; /* Ajustăm dimensiunea logo-ului pe desktop */
+}
+
+/* Stiluri de bază pentru navigare */
+#components-layout-demo-custom-trigger .trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+
+/* Responsivitate */
+
+/* Pentru ecrane mici, transformăm meniul orizontal într-un meniu de tip dropdown */
+@media screen and (max-width: 768px) {
+  .horizontal-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .ant-menu-horizontal {
+    display: none; /* Ascundem meniul orizontal pe ecrane mici */
+  }
+
+  .ant-menu-inline {
+    display: block;
+  }
+
+  .logo-title {
+    font-size: 16px; /* Reducem dimensiunea logo-ului pe ecrane mici */
+  }
+
+  .cart-items {
+    margin-top: 10px;
+  }
+
+  .cart-badge {
+    right: -8px; /* Ajustăm badge-ul pentru a fi mai vizibil pe dispozitivele mici */
+    top: -6px;
+  }
+}
+
+/* Pentru ecrane foarte mici (telefoane portret), putem face logo-ul și coșul de cumpărături mai mici */
+@media screen and (max-width: 480px) {
+  .logo-title {
+    font-size: 14px; /* Reducem și mai mult dimensiunea logo-ului */
+  }
+
+  .cart-items {
+    font-size: 12px; /* Reducem dimensiunea icon-ului coșului de cumpărături */
+  }
+
+  .cart-badge {
+    font-size: 8px; /* Reducem dimensiunea badge-ului */
+    padding: 2px 4px;
+  }
+}
